@@ -3,7 +3,9 @@
 
 # s_it = iter('hello') # sufficient to make in iterator
 
-# In[5]:
+# In[1]:
+
+from __future__ import print_function
 
 def test_sum(num):
     '''
@@ -17,9 +19,7 @@ def test_sum(num):
     return sum(int(char) ** 2 for char in s)
 
 
-# In[6]:
-
-from __future__ import print_function
+# In[2]:
 
 # Initialize the counters and sets we need for this process.
 happy_ctr = 150        # This is the total number of happy numbers to find.

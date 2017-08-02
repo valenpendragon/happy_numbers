@@ -11785,10 +11785,12 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[5]:</div>
+<div class="prompt input_prompt">In&nbsp;[1]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="k">def</span> <span class="nf">test_sum</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
+
+<span class="k">def</span> <span class="nf">test_sum</span><span class="p">(</span><span class="n">num</span><span class="p">):</span>
     <span class="sd">&#39;&#39;&#39;</span>
 <span class="sd">    This function takes a string composed of integers, converts them</span>
 <span class="sd">    individually into integers, squares these numbers, and sums up the squares.</span>
@@ -11807,12 +11809,10 @@ div#notebook {
 </div>
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[6]:</div>
+<div class="prompt input_prompt">In&nbsp;[2]:</div>
 <div class="inner_cell">
     <div class="input_area">
-<div class=" highlight hl-ipython2"><pre><span></span><span class="kn">from</span> <span class="nn">__future__</span> <span class="kn">import</span> <span class="n">print_function</span>
-
-<span class="c1"># Initialize the counters and sets we need for this process.</span>
+<div class=" highlight hl-ipython2"><pre><span></span><span class="c1"># Initialize the counters and sets we need for this process.</span>
 <span class="n">happy_ctr</span> <span class="o">=</span> <span class="mi">150</span>        <span class="c1"># This is the total number of happy numbers to find.</span>
 <span class="n">test_num</span> <span class="o">=</span> <span class="mi">1</span>           <span class="c1"># This counter is produces the actual numbers to be</span>
                        <span class="c1"># tested, starting with 1.</span>
